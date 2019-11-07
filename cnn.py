@@ -64,6 +64,6 @@ test_set = test_datagen.flow_from_directory('chest_xray/test',
 
 classifier.fit_generator(training_set,
                          samples_per_epoch = 5216,
-                         nb_epoch = 10,
+                         nb_epoch = 2,
                          validation_data = test_set,
                          nb_val_samples = 624)
