@@ -1,14 +1,5 @@
 # Convolutional Neural Network
 
-# Installing Theano
-# pip install --upgrade --no-deps git+git://github.com/Theano/Theano.git
-
-# Installing Tensorflow
-# Install Tensorflow from the website: https://www.tensorflow.org/versions/r0.12/get_started/os_setup.html
-
-# Installing Keras
-# pip install --upgrade keras
-
 # Part 1 - Building the CNN
 
 # Importing the Keras libraries and packages
@@ -64,6 +55,6 @@ test_set = test_datagen.flow_from_directory('chest_xray/test',
 
 classifier.fit_generator(training_set,
                          samples_per_epoch = 5216,
-                         nb_epoch = 2,
+                         nb_epoch = 25,
                          validation_data = test_set,
                          nb_val_samples = 624)
