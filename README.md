@@ -1,4 +1,4 @@
-# Deep-learning-for-detecting-pneumonia-from-x-ray-images
+# Deep learning for detecting pneumonia from x-ray images
 
 Using convolutional neural network to detect if a patient has pneumonia or not using x-ray samples of their chests.
 
